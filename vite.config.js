@@ -3,7 +3,7 @@ import vue from '@vitejs/plugin-vue'
 
 
 export default defineConfig({
-  base: '/English4Kids/', // 👈 👈 nombre EXACTO de tu repo
-  plugins: [vue()],
+  plugins: [vue()],
+  base: '/English4Kids/' // 👈 Nombre exacto del repo en GitHub
 })
 
